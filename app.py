@@ -13,7 +13,7 @@ class UserManagement:
         self.username = username
 
 @app.route("/adduser", methods=["POST"])
-def adduser():
+def addUser():
     getUserData = request.get_json()
     userObject = UserManagement(getUserData["email"], getUserData["username"])
     UserList.append(userObject)
@@ -21,6 +21,9 @@ def adduser():
     print(json.dumps({'Users': [ob.__dict__ for ob in UserList]}))
     return jsonify({'message': "User created successfully..."})
 
+@app.route("/getAllUsers", methods=["GET"])
+def getAllUsers():
+    return json.dumps({'Users': [ob.__dict__ for ob in UserList]})
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=5000, debug=True)
