@@ -24,6 +24,17 @@ def addUser():
 @app.route("/getAllUsers", methods=["GET"])
 def getAllUsers():
     return json.dumps({'Users': [ob.__dict__ for ob in UserList]})
+    
+    
+@app.route("/moduser", methods=["PUT"])
+def moduser():
+    getUserData = request.get_json()
+    userObject = UserManagement(getUserData["email"], getUserData["username"])    
+    UserList[0] = userObject
+    print(json.dumps({'Users': [ob.__dict__ for ob in UserList]}))
+    return jsonify({'message': "User modified successfully."})
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=5000, debug=True)
+    
+  
