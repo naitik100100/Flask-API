@@ -12,13 +12,13 @@ We created four API endpoints which are:
 
 ### Team Contribution:
 
-|      Name          | 							Action                                       |
+|      Name          | 							Action                                                   |
 |--------------------|-----------------------------------------------------------------------|
-| Amogh Bangalore    | Modifications on card detail component, Autocomplete and Readme       |
-| Gaurav Anand       | Card layout and basic Autocomplete                                    |
-| Harshitha M S      | Editing Autocomplete layout, Fullcard details component               |
-| Krupa Patel        | Added card layout in full-detail component                            |
-| Naitik Prajapati   | Minor changes in Full card detail and improving suggestions           |
+| Amogh Bangalore    | Woked on updating data using PUT                                      |
+| Gaurav Anand       | Worked on get all data using GET                                      |
+| Harshitha M S      | Updated Readme file                                                   |
+| Krupa Patel        | Woked on get data with specific email using GET with param            |
+| Naitik Prajapati   | Woked on add data using POST                                          |
 | Sahil Fruitwala    | Modification of Code, Created Readme file                             |
 
 ### Tasks Compeleted
@@ -48,7 +48,6 @@ Link of heroku application: https://csci5709-tutorial.herokuapp.com/
 
 ## Reference
 
-1. "Introducing Hooks – React", Reactjs.org, 2020. [Online]. Available: https://reactjs.org/docs/hooks-intro.html. [Accessed: 31- May- 2020].
-2. "Refs and the DOM – React", Reactjs.org, 2020. [Online]. Available: https://reactjs.org/docs/refs-and-the-dom.html. [Accessed: 30- May- 2020].
-3. "Components and Props – React", Reactjs.org, 2020. [Online]. Available: https://reactjs.org/docs/components-and-props.html. [Accessed: 31- May- 2020].
-4. a. Mark Otto, "Cards", Getbootstrap.com, 2020. [Online]. Available: https://getbootstrap.com/docs/4.5/components/card/. [Accessed: 01- Jun- 2020].
+1. Prettyprintedtutorials, “Processing Incoming Request Data in Flask,” 15-Nov-2019. [Online]. Available: https://scotch.io/bar-talk/processing-incoming-request-data-in-flask. [Accessed: 21-Jun-2020].
+2. J. Nash, “Query strings in Flask: Learning Flask Ep. 11,” Home, 13-Feb-2019. [Online]. Available: https://pythonise.com/series/learning-flask/flask-query-strings. [Accessed: 20-Jun-2020].
+3. J. Nash, “Flask HTTP methods: Learning Flask Ep. 19,” Home, 26-Feb-2019. [Online]. Available: https://pythonise.com/series/learning-flask/flask-http-methods. [Accessed: 22-Jun-2020].
